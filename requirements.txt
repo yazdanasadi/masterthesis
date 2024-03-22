@@ -1,0 +1,17 @@
+torch>=1.9.0
+scikit-learn
+numpy
+stribor==0.1.0
+ipython
+PyYAML
+pandas
+requests
+tqdm
+pyarrow
+matplotlib==3.6.0
+matplotlib-inline==0.1.6
+tensorboard
+tsdm
+torchinfo
+torchvision
+geotorch
