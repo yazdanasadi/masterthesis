@@ -1,10 +1,13 @@
 # Functional Latent Dynamics
 
-Functional Latent Dynamics for Irregularly Sampled Time Series Forecasting
+This is the code of ECML-PAKDD 2024 submission: Functional Latent Dynamics for Irregularly Sampled Time Series Forecasting
 # Requirements
 Please refer to the requirements.txt file
 
-# Training and Evaluation
+# Training on Goodwin dataset
+To rerun the experiment on the Goodwin Dataset, please run the Goodwin.ipynb notebook.
+
+# Training and Evaluation on Benchmark Models
 
 We provide an example for ``physionet`` for observing 36 hrs and predicting 12 hrs. All the datasets and models can be run in the similar manner.
 
