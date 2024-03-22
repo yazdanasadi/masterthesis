@@ -1,7 +1,7 @@
 # Functional Latent Dynamics
 
 This is the code of ECML-PAKDD 2024 submission: Functional Latent Dynamics for Irregularly Sampled Time Series Forecasting
-[FLD-figure](FLD-Architecture.png)
+[FLD-figure](FLD-fig.png)
 
 # Requirements
 Please refer to the requirements.txt file
