@@ -58,8 +58,7 @@ pip install -r requirements.txt
 Make sure tsdm is installed (from pip or GitHub):
 bash
 pip install tsdm
-# or
-pip install git+https://github.com/leo-prt/tsdm.git
+
 
 
 ---

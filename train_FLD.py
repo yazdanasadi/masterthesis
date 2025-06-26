@@ -7,7 +7,6 @@
 
 # In[ ]:
 
-
 import argparse
 import sys
 
@@ -41,13 +40,15 @@ print(" ".join(sys.argv))
 
 
 try:
-    get_ipython().run_line_magic(
-        "config", "InteractiveShell.ast_node_interactivity='last_expr_or_assign'"
-    )
-except NameError:
+    from IPython import get_ipython
+    shell = get_ipython()
+    if shell is not None:
+        ARGS = parser.parse_args("")
+    else:
+        ARGS = parser.parse_args()
+except (ImportError, NameError):
     ARGS = parser.parse_args()
-else:
-    ARGS = parser.parse_args("")
+
 
 import yaml
 
